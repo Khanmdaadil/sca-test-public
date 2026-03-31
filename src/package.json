@@ -1,0 +1,17 @@
+{
+  "name": "sca-repro-app",
+  "version": "1.0.0",
+  "description": "App to demonstrate transitive vulnerabilities without a lockfile",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "4.17.20"
+  },
+  "devDependencies": {
+    "mocha": "8.0.0",
+    "nyc": "14.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
